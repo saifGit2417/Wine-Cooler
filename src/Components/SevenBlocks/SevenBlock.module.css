@@ -1,0 +1,10 @@
+.mainconatiner1 {
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.container1 {
+   background-color: #f2f2f2;
+   width: 80vw !important;
+   margin: 0 10vw;
+}

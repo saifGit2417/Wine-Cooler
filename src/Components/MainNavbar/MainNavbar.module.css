@@ -1,0 +1,24 @@
+.maincontainer {
+    width: 80vw !important;
+    margin-left: 5vw !important;
+    display: flex !important;
+    justify-content: space-around !important;
+
+}
+
+.heading {
+    color: #990f05;
+    font-size: 1.5rem;
+}
+
+/* .searchdiv{
+   display: flex;
+   height: 8vh;
+}
+
+.button{
+    border: none;
+    background-color: #990f05;
+    color: white;
+    font-weight: bolder;
+} */

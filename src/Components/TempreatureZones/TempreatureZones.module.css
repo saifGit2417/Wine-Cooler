@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+}
+
+.conatiner {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin-left: 10vw;
+
+}
+
+.image {
+    width: 27vw;
+    padding: 5px;
+    cursor: pointer;
+}
+
+@media (max-width:765px) {
+    .conatiner{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 80vw;
+    }
+}

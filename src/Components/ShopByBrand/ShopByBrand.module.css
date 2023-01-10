@@ -1,0 +1,39 @@
+.container {
+    width: 80vw;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.innerContainer {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+
+.images {
+    width: 27vw;
+    height: 25vh;
+    border: 1px solid gray;
+    padding: 40px;
+}
+
+@media (max-width:765px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .innerContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .images {
+        width: 80vw;
+        height: 25vh;
+        border: 1px solid gray;
+        padding: 40px;
+        margin: 10px 0;
+    }
+}

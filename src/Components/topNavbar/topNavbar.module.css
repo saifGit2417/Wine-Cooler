@@ -1,0 +1,49 @@
+.container {
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #990f04;
+    color: white;
+}
+
+.innercontainer {
+    display: flex;
+    margin-right: 10vw;
+    font-weight: bolder;
+}
+
+.logo {
+    cursor: pointer;
+    margin: 0 2vw;
+
+}
+
+.logo:hover {
+    color: gray;
+}
+
+.cart {
+    height: 4vh;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.cart:hover {
+    color: gray;
+}
+
+.cartLogo {
+    color: #990f04;
+}
+
+/* media query will be activated after 500 px to 300 px */
+@media (max-width:500px) {
+    .container {
+        height: 11vh;
+    }
+
+    .cart {
+        height: 11vh;
+    }
+}
